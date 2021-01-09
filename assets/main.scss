@@ -13,6 +13,10 @@ $content-width: 60%;
   }
 }
 
+.site-title a{
+  color: #111;
+}
+
 .post-link {
   @include relative-font-size(1.2);
 }
@@ -20,4 +24,5 @@ $content-width: 60%;
 .site-title {
   @include relative-font-size(1.45);
 }
+
 
